@@ -2,7 +2,7 @@
 function generate() {
 
     //set password length/complexity
-    let complexity = document.getElementById("slider").value;
+    var complexity = document.getElementById("slider").value;
 
     //possible password values
     var values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+"
