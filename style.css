@@ -1,7 +1,15 @@
+body{
+    background: url(https://www.benchmarkminerals.com/wp-content/uploads/2019/01/iStock-943374898.jpg)
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
 .content {
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: lightgray;
+    background-color: darkgray;
     padding: 20px;
     width: 100%;
 }
@@ -13,5 +21,17 @@
 
 #slider{
     width: 100%;
+
+}
+
+#length {
+    display: inline-block;
+    width: 100px;
+}
+
+.previous_passwords {
+    margin-bottom: 20px;
+    color: darkred;
+
 }
 
